@@ -1,0 +1,50 @@
+! Base16 Melon
+! Scheme: Tommy Heffernan
+
+#define base00 #25242e
+#define base01 #444045
+#define base02 #635c5c
+#define base03 #827873
+#define base04 #a1958a
+#define base05 #c0b1a1
+#define base06 #dfcdb8
+#define base07 #ffeacf
+#define base08 #c7503e
+#define base09 #fab86c
+#define base0A #69b0c7
+#define base0B #317891
+#define base0C #3ec780
+#define base0D #ABB242
+#define base0E #C2214F
+#define base0F #FFB9A3
+
+*.foreground:   base02
+*.background:   base07
+*.cursorColor:  base02
+
+*.color0:       base00
+*.color1:       base08
+*.color2:       base0B
+*.color3:       base0A
+*.color4:       base0D
+*.color5:       base0E
+*.color6:       base0C
+*.color7:       base05
+
+*.color8:       base03
+*.color9:       base08
+*.color10:      base0B
+*.color11:      base0A
+*.color12:      base0D
+*.color13:      base0E
+*.color14:      base0C
+*.color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*.color16:      base09
+*.color17:      base0F
+*.color18:      base01
+*.color19:      base02
+*.color20:      base04
+*.color21:      base06

@@ -1,0 +1,20 @@
+GIMP Palette
+Name: Base16 Melon
+Columns: 16
+#
+  37  36  46	base00
+  68  64  69	base01
+  99  92  92	base02
+  130  120  115	base03
+  161  149  138	base04
+  192  177  161	base05
+  223  205  184	base06
+  255  234  207	base07
+  199  80  62	base08
+  250  184  108	base09
+  105  176  199	base0A
+  49  120  145	base0B
+  62  199  128	base0C
+  171  178  66	base0D
+  194  33  79	base0E
+  255  185  163	base0F
