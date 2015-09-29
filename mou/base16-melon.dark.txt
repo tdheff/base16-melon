@@ -8,27 +8,27 @@ foreground: c0b1a1
 background: 635c5c
 
 H1
-foreground: ABB242
+foreground: abb242
 font-style: bold
 
 H2
-foreground: ABB242
+foreground: abb242
 font-style: bold
 
 H3
-foreground: ABB242
+foreground: abb242
 
 H4
-foreground: ABB242
+foreground: abb242
 
 H5
-foreground: ABB242
+foreground: abb242
 
 H6
-foreground: ABB242
+foreground: abb242
 
 EMPH
-foreground: C2214F
+foreground: c2214f
 font-style: italic
 
 STRONG
@@ -67,7 +67,7 @@ VERBATIM
 foreground: 317891
 
 HTML_ENTITY
-foreground: FFB9A3
+foreground: ffb9a3
 
 COMMENT
 foreground: 827873

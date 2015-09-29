@@ -27,17 +27,17 @@
   <!-- language primitives -->
   <style name="Number" foreground="#fab86c"/>
   <style name="String" foreground="#317891"/>
-  <style name="Keyword" foreground="#C2214F"/>
+  <style name="Keyword" foreground="#c2214f"/>
   <style name="Operator" foreground="#c0b1a1"/>
-  <style name="Preprocessor" foreground="#ABB242"/>
+  <style name="Preprocessor" foreground="#abb242"/>
   <style name="Label" foreground="#c7503e"/>
 
   <!-- types, classes -->
   <style name="Type" foreground="#69b0c7"/>
 
   <!-- functions, methods -->
-  <style name="Function" foreground="#ABB242"/>
-  <style name="VirtualMethod" foreground="#ABB242" italic="true"/>
+  <style name="Function" foreground="#abb242"/>
+  <style name="VirtualMethod" foreground="#abb242" italic="true"/>
 
   <!-- variables -->
   <style name="Field" foreground="#dfcdb8"/>
@@ -57,24 +57,24 @@
   <style name="Doxygen.Tag" foreground="#827873"/>
 
   <!-- QML -->
-  <style name="QmlTypeId" foreground="#C2214F"/>
+  <style name="QmlTypeId" foreground="#c2214f"/>
   <style name="Binding" foreground="#c7503e"/>
-  <style name="QmlExternalId" foreground="#ABB242" italic="true"/>
-  <style name="QmlExternalObjectProperty" foreground="#ABB242" italic="true"/>
+  <style name="QmlExternalId" foreground="#abb242" italic="true"/>
+  <style name="QmlExternalObjectProperty" foreground="#abb242" italic="true"/>
   <style name="QmlLocalId" italic="true"/>
   <style name="QmlRootObjectProperty" italic="true"/>
   <style name="QmlScopeObjectProperty" italic="true"/>
   <style name="QmlStateName" italic="true"/>
 
   <!-- inline diff -->
-  <style name="DiffFile" foreground="#C2214F"/>
-  <style name="DiffLocation" foreground="#ABB242"/>
+  <style name="DiffFile" foreground="#c2214f"/>
+  <style name="DiffLocation" foreground="#abb242"/>
   <style name="AddedLine" foreground="#317891"/>
   <style name="RemovedLine" foreground="#69b0c7"/>
 
   <!-- side-by-side diff -->
-  <style name="DiffFileLine" foreground="#C2214F"/>
-  <style name="DiffContextLine" foreground="#ABB242"/>
+  <style name="DiffFileLine" foreground="#c2214f"/>
+  <style name="DiffContextLine" foreground="#abb242"/>
   <style name="DiffSourceLine" foreground="#317891"/>
   <style name="DiffSourceChar" foreground="#69b0c7" background="#444045"/>
   <style name="DiffDestLine" foreground="#317891"/>

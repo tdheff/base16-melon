@@ -1,7 +1,7 @@
 #lang info
 
 ;; Base16 Melon (https://github.com/chriskempson/base16)
-;; Scheme: Tommy Heffernan
+;; Scheme: Tommy Heffernan (http://github.com/tdheff)
 
 ;; pkg metadata
 (define deps '("base"))

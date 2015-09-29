@@ -1,0 +1,23 @@
+/* Base16 Melon
+Scheme: Tommy Heffernan (http://github.com/tdheff) */
+
+table.sourceCode, tr.sourceCode, td.sourceCode, table.sourceCode pre
+{ margin: 0; padding: 0; border: 0; vertical-align: baseline; border: none; background-color: #ffeacf; color: #635c5c }
+td.nums { text-align: right; padding-right: 5px; padding-left: 5px; background-color: #dfcdb8; }
+td.sourceCode { padding-left: 5px; }
+code.sourceCode { background-color: #ffeacf; }
+pre.sourceCode { background-color: #ffeacf; line-height: 125% }
+td.nums pre { background-color: #dfcdb8; line-height: 125% }
+code.sourceCode span.kw { color: #abb242; font-weight: bold } /* Keyword */
+code.sourceCode span.dt { color: #c2214f} /* Keyword.Type */
+code.sourceCode span.dv { color: #fab86c } /* Literal.Number.Integer */
+code.sourceCode span.bn { color: #fab86c } /* Literal.Number.Hex */
+code.sourceCode span.fl { color: #fab86c } /* Literal.Number.Float */
+code.sourceCode span.ch { color: #317891} /* Literal.String.Char */
+code.sourceCode span.st { color: #317891 } /* Literal.String */
+code.sourceCode span.co { color: #827873 } /* Comment */
+code.sourceCode span.ot { color: #ffb9a3 } /* Comment.Preproc */
+code.sourceCode span.al { color: #c2214f } /* Generic.Error */
+code.sourceCode span.fu { color: #69b0c7 } /* Name.Function */
+code.sourceCode span.re { color: #3ec780}
+code.sourceCode span.er { color: #c7503e; border: 1px solid #c2214f } /* Error */

@@ -1,9 +1,9 @@
 /*
 
     Name:       Base16 Melon Dark
-    Author:     Tommy Heffernan
+    Author:     Tommy Heffernan (http://github.com/tdheff)
 
-    CodeMirror template by Jan T. Sott (https://github.com/idleberg/base16-chrome-devtools)
+    CodeMirror template by Jan T. Sott (https://github.com/idleberg)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
 
 */
@@ -14,20 +14,20 @@
 .cm-s-base16-melon-dark .CodeMirror-linenumber {color: #827873;}
 .cm-s-base16-melon-dark .CodeMirror-cursor {border-left: 1px solid #a1958a !important;}
 
-.cm-s-base16-melon-dark span.cm-comment {color: #FFB9A3;}
-.cm-s-base16-melon-dark span.cm-atom {color: #C2214F;}
-.cm-s-base16-melon-dark span.cm-number {color: #C2214F;}
+.cm-s-base16-melon-dark span.cm-comment {color: #ffb9a3;}
+.cm-s-base16-melon-dark span.cm-atom {color: #c2214f;}
+.cm-s-base16-melon-dark span.cm-number {color: #c2214f;}
 
 .cm-s-base16-melon-dark span.cm-property, .cm-s-base16-melon-dark span.cm-attribute {color: #317891;}
 .cm-s-base16-melon-dark span.cm-keyword {color: #c7503e;}
 .cm-s-base16-melon-dark span.cm-string {color: #69b0c7;}
 
 .cm-s-base16-melon-dark span.cm-variable {color: #317891;}
-.cm-s-base16-melon-dark span.cm-variable-2 {color: #ABB242;}
+.cm-s-base16-melon-dark span.cm-variable-2 {color: #abb242;}
 .cm-s-base16-melon-dark span.cm-def {color: #fab86c;}
 .cm-s-base16-melon-dark span.cm-error {background: #c7503e; color: #a1958a;}
 .cm-s-base16-melon-dark span.cm-bracket {color: #dfcdb8;}
 .cm-s-base16-melon-dark span.cm-tag {color: #c7503e;}
-.cm-s-base16-melon-dark span.cm-link {color: #C2214F;}
+.cm-s-base16-melon-dark span.cm-link {color: #c2214f;}
 
 .cm-s-base16-melon-dark .CodeMirror-matchingbracket { text-decoration: underline; color: white !important;}

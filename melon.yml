@@ -1,0 +1,19 @@
+# 3024 scheme for the Base16 Builder (https://github.com/chriskempson/base16-builder)
+scheme: "Melon"
+author: "Tommy Heffernan (http://github.com/tdheff)"
+base00: "25242e" #  ----
+base01: "444045" #  ---
+base02: "635c5c" #  --
+base03: "827873" #  -
+base04: "a1958a" #  +
+base05: "c0b1a1" #  ++
+base06: "dfcdb8" #  +++
+base07: "ffeacf" #  ++++
+base08: "c7503e" #	red
+base09: "fab86c" #	orange
+base0A: "69b0c7" #	yellow
+base0B: "317891" #	green
+base0C: "3ec780" #	aqua
+base0D: "abb242" #	blue
+base0E: "c2214f" #	purple
+base0F: "ffb9a3" #	brown

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>author</key>
-	<string>Tommy Heffernan</string>
+	<string>Tommy Heffernan (http://github.com/tdheff)</string>
 	<key>name</key>
 	<string>Base16 Melon Light</string>
 	<key>semanticClass</key>
@@ -105,7 +105,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C2214F</string>
+				<string>#c2214f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -127,7 +127,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ABB242</string>
+				<string>#abb242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -160,7 +160,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ABB242</string>
+				<string>#abb242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -171,7 +171,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C2214F</string>
+				<string>#c2214f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -270,7 +270,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ABB242</string>
+				<string>#abb242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -281,7 +281,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C2214F</string>
+				<string>#c2214f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -305,7 +305,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#ABB242</string>
+				<string>#abb242</string>
 			</dict>
 		</dict>
 		<dict>
@@ -342,7 +342,7 @@
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
-				<string>#C2214F</string>
+				<string>#c2214f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -443,7 +443,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#C2214F</string>
+				<string>#c2214f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -487,12 +487,12 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFB9A3</string>
+				<string>#ffb9a3</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Invalid</string>
+			<string>Illegal</string>
 			<key>scope</key>
 			<string>invalid.illegal</string>
 			<key>settings</key>
@@ -503,8 +503,47 @@
 				<string>#ffeacf</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Broken</string>
+			<key>scope</key>
+			<string>invalid.broken</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#fab86c</string>
+				<key>foreground</key>
+				<string>#25242e</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Deprecated</string>
+			<key>scope</key>
+			<string>invalid.deprecated</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#ffb9a3</string>
+				<key>foreground</key>
+				<string>#ffeacf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unimplemented</string>
+			<key>scope</key>
+			<string>invalid.unimplemented</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#c0b1a1</string>
+				<key>foreground</key>
+				<string>#25242e</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
-	<string>af80b507-7a5a-4f47-a60c-571350d5eaff</string>
+	<string>770ee6c3-37ef-4a0c-8799-49e5eeb0a5a9</string>
 </dict>
 </plist>

@@ -1,7 +1,7 @@
 /*
 
     Name:       Base16 Melon Dark
-    Author:     Tommy Heffernan
+    Author:     Tommy Heffernan (http://github.com/tdheff)
 
     Prettify template by Jan T. Sott (https://github.com/idleberg/)
     Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -21,7 +21,7 @@
 
   /* a keyword */
   .kwd {
-    color: #C2214F;
+    color: #c2214f;
   }
 
   /* a comment */
@@ -31,7 +31,7 @@
 
   /* a type name */
   .typ {
-    color: #ABB242;
+    color: #abb242;
   }
 
   /* a literal value */
@@ -81,7 +81,7 @@
 
   /* a function name */
   .fun {
-    color: #ABB242;
+    color: #abb242;
   }
 }
 /* Use higher contrast and text-weight for printable form. */

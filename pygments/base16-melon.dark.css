@@ -1,7 +1,7 @@
 /*
 
     Name:       Base16 Melon Dark
-    Author:     Tommy Heffernan
+    Author:     Tommy Heffernan (http://github.com/tdheff)
 
     Pygments template by Jan T. Sott (https://github.com/idleberg)
     Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
@@ -11,7 +11,7 @@
 .syntax  { background: #25242e; color: #ffeacf }
 .syntax .c { color: #827873 } /* Comment */
 .syntax .err { color: #c7503e } /* Error */
-.syntax .k { color: #C2214F } /* Keyword */
+.syntax .k { color: #c2214f } /* Keyword */
 .syntax .l { color: #fab86c } /* Literal */
 .syntax .n { color: #ffeacf } /* Name */
 .syntax .o { color: #3ec780 } /* Operator */
@@ -27,26 +27,26 @@
 .syntax .gp { color: #827873; font-weight: bold } /* Generic.Prompt */
 .syntax .gs { font-weight: bold } /* Generic.Strong */
 .syntax .gu { color: #3ec780; font-weight: bold } /* Generic.Subheading */
-.syntax .kc { color: #C2214F } /* Keyword.Constant */
-.syntax .kd { color: #C2214F } /* Keyword.Declaration */
+.syntax .kc { color: #c2214f } /* Keyword.Constant */
+.syntax .kd { color: #c2214f } /* Keyword.Declaration */
 .syntax .kn { color: #3ec780 } /* Keyword.Namespace */
-.syntax .kp { color: #C2214F } /* Keyword.Pseudo */
-.syntax .kr { color: #C2214F } /* Keyword.Reserved */
+.syntax .kp { color: #c2214f } /* Keyword.Pseudo */
+.syntax .kr { color: #c2214f } /* Keyword.Reserved */
 .syntax .kt { color: #69b0c7 } /* Keyword.Type */
 .syntax .ld { color: #317891 } /* Literal.Date */
 .syntax .m { color: #fab86c } /* Literal.Number */
 .syntax .s { color: #317891 } /* Literal.String */
-.syntax .na { color: #ABB242 } /* Name.Attribute */
+.syntax .na { color: #abb242 } /* Name.Attribute */
 .syntax .nb { color: #ffeacf } /* Name.Builtin */
 .syntax .nc { color: #69b0c7 } /* Name.Class */
 .syntax .no { color: #c7503e } /* Name.Constant */
 .syntax .nd { color: #3ec780 } /* Name.Decorator */
 .syntax .ni { color: #ffeacf } /* Name.Entity */
 .syntax .ne { color: #c7503e } /* Name.Exception */
-.syntax .nf { color: #ABB242 } /* Name.Function */
+.syntax .nf { color: #abb242 } /* Name.Function */
 .syntax .nl { color: #ffeacf } /* Name.Label */
 .syntax .nn { color: #69b0c7 } /* Name.Namespace */
-.syntax .nx { color: #ABB242 } /* Name.Other */
+.syntax .nx { color: #abb242 } /* Name.Other */
 .syntax .py { color: #ffeacf } /* Name.Property */
 .syntax .nt { color: #3ec780 } /* Name.Tag */
 .syntax .nv { color: #c7503e } /* Name.Variable */

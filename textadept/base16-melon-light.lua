@@ -1,5 +1,5 @@
 -- Melon theme for Textadept (http://foicica.com/textadept/)
--- Theme author: Tommy Heffernan
+-- Theme author: Tommy Heffernan (http://github.com/tdheff)
 -- Base16 (https://github.com/chriskempson/base16)
 -- Build with Base16 Builder (https://github.com/chriskempson/base16-builder)
 -- Repository: https://github.com/rgieseke/ta-themes
@@ -20,9 +20,9 @@ property['color.base09'] = 0x6cb8fa
 property['color.base0A'] = 0xc7b069
 property['color.base0B'] = 0x917831
 property['color.base0C'] = 0x80c73e
-property['color.base0D'] = 0x42B2AB
-property['color.base0E'] = 0x4F21C2
-property['color.base0F'] = 0xA3B9FF
+property['color.base0D'] = 0x42b2ab
+property['color.base0E'] = 0x4f21c2
+property['color.base0F'] = 0xa3b9ff
 
 -- Default font.
 property['font'], property['fontsize'] = 'Bitstream Vera Sans Mono', 10

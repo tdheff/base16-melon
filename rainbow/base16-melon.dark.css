@@ -1,7 +1,7 @@
 /**
  * Base16 Melon Dark
  *
- * @author Tommy Heffernan
+ * @author Tommy Heffernan (http://github.com/tdheff)
  *
  * Rainbow template by Jan T. Sott (https://github.com/idleberg/)
  * Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16)
@@ -41,9 +41,9 @@ pre .constant.symbol, pre .string {
 }
 
 pre .entity.function, pre .support.css-property, pre .selector {
-    color: #ABB242; /* blue */
+    color: #abb242; /* blue */
 }
 
 pre .keyword, pre .storage {
-    color: #C2214F; /* purple */
+    color: #c2214f; /* purple */
 }

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Melon - Gnome Terminal color scheme install script
-# Tommy Heffernan
+# Tommy Heffernan (http://github.com/tdheff)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Melon Light"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-melon-light"
@@ -59,8 +59,8 @@ if which "$DCONF" > /dev/null 2>&1; then
 
         # update profile values with theme options
         dset visible-name "'$PROFILE_NAME'"
-        dset palette "'#25242e:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#ffeacf'"
-        dset palette "'#ffeacf:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#25242e'"
+        dset palette "'#25242e:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#ffeacf'"
+        dset palette "'#ffeacf:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#25242e'"
         dset background-color "'#ffeacf'"
         dset foreground-color "'#635c5c'"
         dset bold-color "'#635c5c'"
@@ -110,7 +110,7 @@ glist_append() {
 glist_append string /apps/gnome-terminal/global/profile_list "$PROFILE_SLUG"
 
 gset string visible_name "$PROFILE_NAME"
-gset string palette "#ffeacf:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#25242e"
+gset string palette "#ffeacf:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#25242e"
 gset string background_color "#ffeacf"
 gset string foreground_color "#635c5c"
 gset string bold_color "#635c5c"

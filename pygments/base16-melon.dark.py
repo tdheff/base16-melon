@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Base16 Melon Dark
-by Tommy Heffernan
+by Tommy Heffernan (http://github.com/tdheff)
 
 Pygments template by Jan T. Sott (https://github.com/idleberg)
 Created with Base16 Builder by Chris Kempson (https://github.com/chriskempson/base16-builder)
@@ -22,8 +22,8 @@ ORANGE = "#fab86c"
 YELLOW = "#69b0c7"
 GREEN = "#317891"
 AQUA = "#3ec780"
-BLUE = "#ABB242"
-PURPLE = "#C2214F"
+BLUE = "#abb242"
+PURPLE = "#c2214f"
 
 
 class base16_melon_dark(Style):

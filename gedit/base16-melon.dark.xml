@@ -24,7 +24,7 @@
 <style-scheme id="base16-melon-dark" _name="Base16 Melon Dark" version="1.0">
   
   <!-- Meta -->
-  <author>Tommy Heffernan</author>
+  <author>Tommy Heffernan (http://github.com/tdheff)</author>
   <_description>Base16 Melon Dark</_description>
 
   <!-- Palette -->
@@ -41,9 +41,9 @@
   <color name="base0A" value="#69b0c7"/>
   <color name="base0B" value="#317891"/>
   <color name="base0C" value="#3ec780"/>
-  <color name="base0D" value="#ABB242"/>
-  <color name="base0E" value="#C2214F"/>
-  <color name="base0F" value="#FFB9A3"/>
+  <color name="base0D" value="#abb242"/>
+  <color name="base0E" value="#c2214f"/>
+  <color name="base0F" value="#ffb9a3"/>
 
   <!-- Styles -->
   <style name="bracket-match" background="base01" bold="true"/>

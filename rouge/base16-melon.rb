@@ -2,7 +2,7 @@ module Rouge
   module Themes
     class Melon < Base16
       name 'base16.Melon'
-      # author Tommy Heffernan
+      # author Tommy Heffernan (http://github.com/tdheff)
       light!
 
       palette base00: "#25242e"
@@ -18,9 +18,9 @@ module Rouge
       palette base0A: "#69b0c7"
       palette base0B: "#317891"
       palette base0C: "#3ec780"
-      palette base0D: "#ABB242"
-      palette base0E: "#C2214F"
-      palette base0F: "#FFB9A3"
+      palette base0D: "#abb242"
+      palette base0E: "#c2214f"
+      palette base0F: "#ffb9a3"
     end
   end
 end

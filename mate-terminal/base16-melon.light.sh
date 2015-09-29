@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Base16 Melon - Mate Terminal color scheme install script
-# Tommy Heffernan
+# Tommy Heffernan (http://github.com/tdheff)
 
 [[ -z "$PROFILE_NAME" ]] && PROFILE_NAME="Base 16 Melon Light"
 [[ -z "$PROFILE_SLUG" ]] && PROFILE_SLUG="base-16-melon-light"
@@ -35,7 +35,7 @@ glist_append() {
 glist_append /org/mate/terminal/global/profile-list "$PROFILE_SLUG"
 
 dset visible-name "'$PROFILE_NAME'"
-dset palette "'#ffeacf:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#ABB242:#C2214F:#3ec780:#25242e'"
+dset palette "'#ffeacf:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#c0b1a1:#827873:#c7503e:#317891:#69b0c7:#abb242:#c2214f:#3ec780:#25242e'"
 dset background-color "'#ffeacf'"
 dset foreground-color "'#635c5c'"
 dset bold-color "'#635c5c'"

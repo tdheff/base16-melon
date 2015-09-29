@@ -1,13 +1,13 @@
 #!/bin/sh
 # Base16 Melon - Virtual console color setup script
-# Tommy Heffernan
+# Tommy Heffernan (http://github.com/tdheff)
 
 color00="ffeacf" # Base 07 - White
 color01="c7503e" # Base 08 - Red
 color02="317891" # Base 0B - Green
 color03="69b0c7" # Base 0A - Yellow
-color04="ABB242" # Base 0D - Blue
-color05="C2214F" # Base 0E - Magenta
+color04="abb242" # Base 0D - Blue
+color05="c2214f" # Base 0E - Magenta
 color06="3ec780" # Base 0C - Cyan
 color07="635c5c" # Base 02 - Black
 color08="c0b1a1" # Base 05 - Bright White

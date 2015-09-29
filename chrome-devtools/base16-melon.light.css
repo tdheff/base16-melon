@@ -1,7 +1,7 @@
 /*
 
     Name:       Base16 Melon Light
-    Author:     Tommy Heffernan
+    Author:     Tommy Heffernan (http://github.com/tdheff)
 
     Chrome Developer Tools template by Jan T. Sott
     Based on a Gist by Ben Truyman
@@ -107,7 +107,7 @@
   font-family: 'DejaVu Sans Mono', 'DroidSansMono', Menlo, monospace !important;
 }
 #-webkit-web-inspector .selector-matches {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector body.inactive .sidebar {
   background-color: #dcdcdc !important;
@@ -233,7 +233,7 @@
   color: #25242e !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector .console-group-messages .section .header .title {
   color: #F1F1F1 !important;
@@ -292,7 +292,7 @@
   color: #25242e !important;
 }
 #-webkit-web-inspector .console-formatted-regexp {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector .script-view,
 #-webkit-web-inspector .properties-tree,
@@ -350,7 +350,7 @@
   background-color: #3879d9 !important;
 }
 #-webkit-web-inspector .header-toggle:hover {
-  color: #ABB242 !important;
+  color: #abb242 !important;
 }
 #-webkit-web-inspector .header-value.source-code {
   color: white !important;
@@ -371,11 +371,11 @@
   color: #fab86c !important;
 }
 #-webkit-web-inspector .webkit-html-js-node {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector .webkit-html-resource-link,
 #-webkit-web-inspector .webkit-html-external-link {
-  color: #ABB242 !important;
+  color: #abb242 !important;
 }
 #-webkit-web-inspector .webkit-css-comment {
   color: #a1958a !important;
@@ -396,13 +396,13 @@
 }
 #-webkit-web-inspector .webkit-css-important,
 #-webkit-web-inspector .webkit-css-at-rule {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector .webkit-css-string {
   color: #3ec780 !important;
 }
 #-webkit-web-inspector .webkit-css-url {
-  color: #ABB242 !important;
+  color: #abb242 !important;
 }
 #-webkit-web-inspector .sidebar-separator {
   padding: 3px 5px 5px !important;
@@ -427,7 +427,7 @@
   color: #fab86c !important;
 }
 #-webkit-web-inspector .webkit-javascript-regexp {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector .section .properties .name,
 #-webkit-web-inspector .event-properties .name {
@@ -590,7 +590,7 @@
   color: #3ec780 !important;
 }
 #-webkit-web-inspector .help-key-delimiter {
-  color: #C2214F !important;
+  color: #c2214f !important;
 }
 #-webkit-web-inspector .styles-element-state-pane {
   background: #b8b8b8 !important;

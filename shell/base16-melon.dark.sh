@@ -1,6 +1,6 @@
 #!/bin/sh
 # Base16 Melon - Shell color setup script
-# Tommy Heffernan
+# Tommy Heffernan (http://github.com/tdheff)
 
 if [ "${TERM%%-*}" = 'linux' ]; then
     # This script doesn't support linux console (use 'vconsole' template instead)
@@ -11,8 +11,8 @@ color00="25/24/2e" # Base 00 - Black
 color01="c7/50/3e" # Base 08 - Red
 color02="31/78/91" # Base 0B - Green
 color03="69/b0/c7" # Base 0A - Yellow
-color04="AB/B2/42" # Base 0D - Blue
-color05="C2/21/4F" # Base 0E - Magenta
+color04="ab/b2/42" # Base 0D - Blue
+color05="c2/21/4f" # Base 0E - Magenta
 color06="3e/c7/80" # Base 0C - Cyan
 color07="c0/b1/a1" # Base 05 - White
 color08="82/78/73" # Base 03 - Bright Black
@@ -24,7 +24,7 @@ color13=$color05 # Base 0E - Bright Magenta
 color14=$color06 # Base 0C - Bright Cyan
 color15="ff/ea/cf" # Base 07 - Bright White
 color16="fa/b8/6c" # Base 09
-color17="FF/B9/A3" # Base 0F
+color17="ff/b9/a3" # Base 0F
 color18="44/40/45" # Base 01
 color19="63/5c/5c" # Base 02
 color20="a1/95/8a" # Base 04
@@ -38,13 +38,16 @@ if [ -n "$TMUX" ]; then
   # (Source: http://permalink.gmane.org/gmane.comp.terminal-emulators.tmux.user/1324)
   printf_template="\033Ptmux;\033\033]4;%d;rgb:%s\007\033\\"
   printf_template_var="\033Ptmux;\033\033]%d;rgb:%s\007\033\\"
+  printf_template_custom="\033Ptmux;\033\033]%s%s\007\033\\"
 elif [ "${TERM%%-*}" = "screen" ]; then
   # GNU screen (screen, screen-256color, screen-256color-bce)
   printf_template="\033P\033]4;%d;rgb:%s\007\033\\"
   printf_template_var="\033P\033]%d;rgb:%s\007\033\\"
+  printf_template_custom="\033P\033]%s%s\007\033\\"
 else
   printf_template="\033]4;%d;rgb:%s\033\\"
   printf_template_var="\033]%d;rgb:%s\033\\"
+  printf_template_custom="\033]%s%s\033\\"
 fi
 
 # 16 color space
@@ -74,9 +77,20 @@ printf $printf_template 20 $color20
 printf $printf_template 21 $color21
 
 # foreground / background / cursor color
-printf $printf_template_var 10 $color_foreground
-printf $printf_template_var 11 $color_background
-printf $printf_template_var 12 $color_cursor
+if [ -n "$ITERM_SESSION_ID" ]; then
+  # iTerm2 proprietary escape codes
+  printf $printf_template_custom Pg c0b1a1 # forground
+  printf $printf_template_custom Ph 25242e # background
+  printf $printf_template_custom Pi c0b1a1 # bold color
+  printf $printf_template_custom Pj 635c5c # selection color
+  printf $printf_template_custom Pk c0b1a1 # selected text color
+  printf $printf_template_custom Pl c0b1a1 # cursor
+  printf $printf_template_custom Pm 25242e # cursor text
+else
+  printf $printf_template_var 10 $color_foreground
+  printf $printf_template_var 11 $color_background
+  printf $printf_template_custom 12 ";7" # cursor (reverse video)
+fi
 
 # clean up
 unset printf_template

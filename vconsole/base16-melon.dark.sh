@@ -1,13 +1,13 @@
 #!/bin/sh
 # Base16 Melon - Virtual console color setup script
-# Tommy Heffernan
+# Tommy Heffernan (http://github.com/tdheff)
 
 color00="25242e" # Base 00 - Black
 color01="c7503e" # Base 08 - Red
 color02="317891" # Base 0B - Green
 color03="69b0c7" # Base 0A - Yellow
-color04="ABB242" # Base 0D - Blue
-color05="C2214F" # Base 0E - Magenta
+color04="abb242" # Base 0D - Blue
+color05="c2214f" # Base 0E - Magenta
 color06="3ec780" # Base 0C - Cyan
 color07="c0b1a1" # Base 05 - White
 color08="827873" # Base 03 - Bright Black
@@ -36,8 +36,12 @@ echo -e "\e]PC$color12"
 echo -e "\e]PD$color13"
 echo -e "\e]PE$color14"
 echo -e "\e]PF$color15"
-echo -e "\e[H"
-echo -e "\e[2J"
+if [ -x /sbin/clear ]; then 
+  /sbin/clear
+else
+  echo -e "\e[H"
+  echo -e "\e[2J"
+fi
 
 # clean up
 unset color00

@@ -14,8 +14,8 @@
   <line id="base0A" x1="525" y1="0" x2="525" y2="720" stroke-width="50" stroke="#69b0c7" />
   <line id="base0B" x1="575" y1="0" x2="575" y2="720" stroke-width="50" stroke="#317891" />
   <line id="base0C" x1="625" y1="0" x2="625" y2="720" stroke-width="50" stroke="#3ec780" />
-  <line id="base0D" x1="675" y1="0" x2="675" y2="720" stroke-width="50" stroke="#ABB242" />
-  <line id="base0E" x1="725" y1="0" x2="725" y2="720" stroke-width="50" stroke="#C2214F" />
-  <line id="base0F" x1="775" y1="0" x2="775" y2="720" stroke-width="50" stroke="#FFB9A3" />
+  <line id="base0D" x1="675" y1="0" x2="675" y2="720" stroke-width="50" stroke="#abb242" />
+  <line id="base0E" x1="725" y1="0" x2="725" y2="720" stroke-width="50" stroke="#c2214f" />
+  <line id="base0F" x1="775" y1="0" x2="775" y2="720" stroke-width="50" stroke="#ffb9a3" />
  </g>
 </svg>

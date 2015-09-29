@@ -1,5 +1,5 @@
 ;; Base16 Melon (https://github.com/chriskempson/base16)
-;; Scheme: Tommy Heffernan
+;; Scheme: Tommy Heffernan (http://github.com/tdheff)
 
 ;;; base16-melon-light-theme.el
 
@@ -20,9 +20,9 @@
       (base0A "#69b0c7")
       (base0B "#317891")
       (base0C "#3ec780")
-      (base0D "#ABB242")
-      (base0E "#C2214F")
-      (base0F "#FFB9A3"))
+      (base0D "#abb242")
+      (base0E "#c2214f")
+      (base0F "#ffb9a3"))
 
   (custom-theme-set-faces
    'base16-melon-light
@@ -37,7 +37,6 @@
    `(highlight ((t (:background ,base01))))
    `(link ((t (:foreground ,base0D))))
    `(link-visited ((t (:foreground ,base0E))))
-   `(linum ((t (:background ,base03))))
    `(minibuffer-prompt ((t (:foreground ,base0D))))
    `(mode-line ((t (:background ,base02 :foreground ,base04 :box nil))))
    `(mode-line-buffer-id ((t (:foreground ,base0E :background nil))))
@@ -101,19 +100,6 @@
    `(mmm-code-submode-face ((t (:background ,base03))))
    `(mmm-comment-submode-face ((t (:inherit font-lock-comment-face))))
    `(mmm-output-submode-face ((t (:background ,base03))))
-
-
-
-   ;; org-mode
-   `(org-date ((t (:foreground ,base0E))))
-   `(org-done ((t (:foreground ,base0B))))
-   `(org-hide ((t (:foreground ,base01))))
-   `(org-link ((t (:foreground ,base0D))))
-   `(org-todo ((t (:foreground ,base08))))
-
-   ;; show-paren-mode
-   `(show-paren-match ((t (:background ,base0D :foreground ,base01))))
-   `(show-paren-mismatch ((t (:background ,base09 :foreground ,base01))))
 
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,base0E))))
@@ -275,6 +261,7 @@
    `(mm/master-face ((t (:inherit region :foreground nil :background nil))))
    `(mm/mirror-face ((t (:inherit region :foreground nil :background nil))))
 
+   ;; org-mode
    `(org-agenda-structure ((t (:foreground ,base0E))))
    `(org-agenda-date ((t (:foreground ,base0D :underline nil))))
    `(org-agenda-done ((t (:foreground ,base0B))))
